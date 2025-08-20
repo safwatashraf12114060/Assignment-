@@ -1,0 +1,22 @@
+.side-btn {
+  position: absolute;
+  top: 10px;      /* sidebar এর উপরে show করার জন্য */
+  left: 10px;     /* sidebar এর বাম পাশে */
+  z-index: 1000;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+
+.side-btn:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}

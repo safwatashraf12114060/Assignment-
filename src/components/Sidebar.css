@@ -1,0 +1,58 @@
+.sidebar {
+  width: 300px;
+  background: #f0f4f8;
+  height: 100vh;
+  padding: 20px;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.1);
+  transition: width 0.3s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.closed {
+  width: 80px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px; 
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.sidebar-nav button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 6px;
+  gap: 10px;
+}
+
+.sidebar-nav button:hover {
+  background: #d6e0f0;
+}
